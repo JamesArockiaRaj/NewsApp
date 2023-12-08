@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ZohoNews</string>
+    <string name="nointernet">No Internet 📵</string>
+    <string name="noresult">No Search Found 👀</string>
+    <string name="fetchstatus">Fetching Status</string>
+    <string name="fetching">Fetching°</string>
+    <string name="date">Oops..Can\'t fetch Date</string>
+    <string name="air">Air Quality</string>
+    <string name="humid">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="newshead">News Headlines</string>
+
+
+</resources>

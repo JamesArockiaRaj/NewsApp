@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background shape with gradient -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="45"
+                android:centerColor="#FAE7FB"
+                android:endColor="#F3DCDC"
+                android:startColor="#F5BCBA" />
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+
+    <!-- Top notch shape -->
+    <item android:top="0dp">
+        <shape>
+            <corners android:topLeftRadius="20dp" android:topRightRadius="20dp" />
+        </shape>
+    </item>
+
+    <!-- FrameLayout for TextView inside the top notch -->
+    <item android:top="5dp" android:left="5dp" android:right="5dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Your TextView -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Your Text Here"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </FrameLayout>
+    </item>
+
+</layer-list>
